@@ -1104,6 +1104,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id buttonLogin
+id buttonLogout
 id buttonPanel
 id buttonPekan1
 id buttonPekan2
@@ -1141,8 +1143,10 @@ id dimensions
 id direct
 id disableHome
 id editTextBulan
+id editTextEmail
 id editTextKeterangan
 id editTextMateri
+id editTextPassword
 id editTextTahun
 id editTextTanggal
 id edit_query
@@ -1371,6 +1375,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_input_presensi
 layout activity_jadwal
+layout activity_login
 layout activity_main
 layout activity_presensi
 layout activity_siswa

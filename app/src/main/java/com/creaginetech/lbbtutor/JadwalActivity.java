@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.creaginetech.lbbtutor.Common.Common;
 import com.creaginetech.lbbtutor.Interface.ItemClickListener;
@@ -33,7 +34,7 @@ public class JadwalActivity extends AppCompatActivity {
 
     private DatabaseReference jadwalRef, tutorRef;
 
-    private String idTutor, namaTutor;
+    private String namaTutor;
 
     FirebaseRecyclerAdapter<Jadwal, JadwalViewHolder> adapter;
 
@@ -52,17 +53,32 @@ public class JadwalActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(linearLayoutManager);
         recyclerView.setHasFixedSize(true);
 
-        //sementara
-        namaTutor = "tutor";
-
-        //TODO pasang auth
-//        getDataTutor();
-
-        fetch();
+        getDataTutor();
 
     }
 
-    private void fetch() {
+    public void getDataTutor(){
+
+        tutorRef.child(Common.currentUser).addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                Tutor currentTutor = dataSnapshot.getValue(Tutor.class);
+
+                namaTutor = currentTutor.getNamaTutor();
+
+                fetch(namaTutor);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+    }
+
+    private void fetch(String namaTutor) {
 
         Query query = jadwalRef.orderByChild("tutor").equalTo(namaTutor);
 
@@ -110,42 +126,6 @@ public class JadwalActivity extends AppCompatActivity {
 
         adapter.startListening();
         recyclerView.setAdapter(adapter);
-    }
-
-    public void getDataTutor(){
-
-        //TODO isi id tutor
-        tutorRef.child(idTutor).addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-
-                    Tutor currentTutor = dataSnapshot.getValue(Tutor.class);
-
-                    namaTutor = currentTutor.getNamaTutor();
-
-
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
-
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-
-        adapter.startListening();
-
-    }
-
-    @Override
-    public void onStop() {
-        super.onStop();
-        adapter.stopListening();
     }
 
 }

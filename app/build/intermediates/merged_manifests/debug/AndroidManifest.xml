@@ -25,6 +25,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.creaginetech.lbbtutor.LoginActivity" />
         <activity android:name="com.creaginetech.lbbtutor.InputPresensiActivity" />
         <activity android:name="com.creaginetech.lbbtutor.SiswaActivity" />
         <activity android:name="com.creaginetech.lbbtutor.JadwalActivity" />

@@ -35,7 +35,6 @@ public class InputPresensiActivity extends AppCompatActivity {
         jadwalRef = FirebaseDatabase.getInstance().getReference("Jadwal");
         presensiRef = FirebaseDatabase.getInstance().getReference("Presensi");
 
-        //TODO selesaikan input presensi
         widgetInit();
 
         getJadwal();
