@@ -104,13 +104,23 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Keterangan tidak hadir (optional)"
+            android:hint="PR"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nilai"
             android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/buttonSubmitPresensi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Submit" />
+            android:background="#2699FB"
+            android:text="Submit"
+            android:textColor="#ffffff" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

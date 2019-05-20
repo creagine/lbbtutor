@@ -1,6 +1,8 @@
 package com.creaginetech.lbbtutor;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
@@ -33,7 +35,33 @@ public class PresensiActivity extends AppCompatActivity {
 
         widgetInit();
 
+        txtBulan.setText("null");
+        txtPekan.setText("null");
+
         getDataSiswa();
+
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                // Do something after 5s = 5000ms
+
+                if(txtBulan.getText().toString().equals("null") &&
+                        txtPekan.getText().toString().equals("null")){
+
+                    Toast.makeText(PresensiActivity.this,
+                            "Data belum ditemukan, silahkan mengisi data presensi",
+                            Toast.LENGTH_SHORT).show();
+
+                    Intent intent = new Intent(PresensiActivity.this, InputPresensiActivity.class);
+                    startActivity(intent);
+                    finish();
+
+                }
+
+            }
+        }, 1000);
+
 
 
         //TODO kehadiran siswa dan tutor
@@ -74,7 +102,7 @@ public class PresensiActivity extends AppCompatActivity {
 
     }
 
-    private void getPresensiSiswa(String namaSiswa){
+    private void getPresensiSiswa(final String namaSiswa){
 
         Query query = presensiRef.orderByChild("namaSiswa").equalTo(namaSiswa);
 
@@ -82,28 +110,27 @@ public class PresensiActivity extends AppCompatActivity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
 
+                //TODO data ada malah dianggap ga ada, fungsi for nya bikin else jadi kebaca terus
+
                 if(dataSnapshot.exists()) {
 
                 for (DataSnapshot data : dataSnapshot.getChildren()) {
 
                         if (data.getValue(Presensi.class).getBulan().equals(Common.bulanSelected) &&
                                 data.getValue(Presensi.class).getPekan().equals(Common.pekanSelected)) {
+
                             txtBulan.setText(data.getValue(Presensi.class).getBulan());
                             txtPekan.setText(data.getValue(Presensi.class).getPekan());
                             txtTanggal.setText(data.getValue(Presensi.class).getTanggalPresensi());
                             txtMateri.setText(data.getValue(Presensi.class).getMateri());
                             txtKeterangan.setText(data.getValue(Presensi.class).getKeterangan());
-                        } else {
-
-                            Toast.makeText(PresensiActivity.this,
-                                    "Data belum ditemukan, silahkan mengisi data presensi",
-                                    Toast.LENGTH_SHORT).show();
-
-                            Intent intent = new Intent(PresensiActivity.this, InputPresensiActivity.class);
-                            startActivity(intent);
-                            finish();
 
                         }
+//                        else {
+
+
+
+//                        }
 
                     }
 

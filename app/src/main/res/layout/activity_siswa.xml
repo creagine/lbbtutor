@@ -41,13 +41,14 @@
                     android:id="@+id/textView7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Jurusan" />
+                    android:text="Jenjang" />
 
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Grade" />
+                    android:text="Grade"
+                    android:visibility="gone" />
 
                 <TextView
                     android:id="@+id/textView5"
@@ -84,7 +85,8 @@
                     android:id="@+id/textViewGrade"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Grade" />
+                    android:text="Grade"
+                    android:visibility="gone" />
 
                 <TextView
                     android:id="@+id/textViewHari"

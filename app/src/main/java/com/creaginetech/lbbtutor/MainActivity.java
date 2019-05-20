@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener authListener;
+    private Button btnAbout;
 
     CardView cardPresensi,cardSpp;
 
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         cardPresensi = findViewById(R.id.cardPresensi);
         cardSpp = findViewById(R.id.cardSPP);
         imageAccount = findViewById(R.id.imageAccount);
+        btnAbout = findViewById(R.id.buttonAbout);
 
         cardPresensi.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,6 +64,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, AccountActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        btnAbout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
                 startActivity(intent);
 
             }
