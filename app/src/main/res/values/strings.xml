@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">lbbtutor</string>
 
+    <string-array name="kehadiranSiswa">
+        <item>Kehadiran siswa</item>
+        <item>Hadir</item>
+        <item>Tidak Hadir</item>
+    </string-array>
+
     <string-array name="bulan">
 
         <item>Pilih bulan</item>

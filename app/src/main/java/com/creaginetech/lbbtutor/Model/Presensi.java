@@ -2,12 +2,14 @@ package com.creaginetech.lbbtutor.Model;
 
 public class Presensi {
 
-    String namaSiswa, namaTutor, bulan, pekan, tanggalPresensi, materi, keterangan;
+    String namaSiswa, namaTutor, bulan, pekan, tanggalPresensi, materi, keterangan, status, presensiTutor, presensiSiswa, idJadwal;
 
     public Presensi() {
     }
 
-    public Presensi(String namaSiswa, String namaTutor, String bulan, String pekan, String tanggalPresensi, String materi, String keterangan) {
+    public Presensi(String namaSiswa, String namaTutor, String bulan, String pekan,
+                    String tanggalPresensi, String materi, String keterangan, String status,
+                    String presensiTutor, String presensiSiswa, String idJadwal) {
         this.namaSiswa = namaSiswa;
         this.namaTutor = namaTutor;
         this.bulan = bulan;
@@ -15,6 +17,10 @@ public class Presensi {
         this.tanggalPresensi = tanggalPresensi;
         this.materi = materi;
         this.keterangan = keterangan;
+        this.status = status;
+        this.presensiTutor = presensiTutor;
+        this.presensiSiswa = presensiSiswa;
+        this.idJadwal = idJadwal;
     }
 
     public String getNamaSiswa() {
@@ -71,5 +77,37 @@ public class Presensi {
 
     public void setKeterangan(String keterangan) {
         this.keterangan = keterangan;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public String getPresensiTutor() {
+        return presensiTutor;
+    }
+
+    public void setPresensiTutor(String presensiTutor) {
+        this.presensiTutor = presensiTutor;
+    }
+
+    public String getPresensiSiswa() {
+        return presensiSiswa;
+    }
+
+    public void setPresensiSiswa(String presensiSiswa) {
+        this.presensiSiswa = presensiSiswa;
+    }
+
+    public String getIdJadwal() {
+        return idJadwal;
+    }
+
+    public void setIdJadwal(String idJadwal) {
+        this.idJadwal = idJadwal;
     }
 }

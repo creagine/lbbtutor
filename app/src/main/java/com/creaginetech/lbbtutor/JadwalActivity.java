@@ -9,7 +9,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.creaginetech.lbbtutor.Common.Common;
 import com.creaginetech.lbbtutor.Interface.ItemClickListener;
@@ -101,13 +100,12 @@ public class JadwalActivity extends AppCompatActivity {
                     public void onClick(View view, int position, boolean isLongClick) {
 
                         //Get CategoryId and send to new Activity
-                        Intent jadwalList = new Intent(JadwalActivity.this, SiswaActivity.class);
+                        Intent jadwalList = new Intent(JadwalActivity.this, PresensiActivity.class);
 
                         //When user select shop, we will save shop id to select service of this shop
                         Common.jadwalSelected = adapter.getRef(position).getKey();
 
                         startActivity(jadwalList);
-                        finish();
 
                     }
                 });
@@ -125,6 +123,11 @@ public class JadwalActivity extends AppCompatActivity {
 
         adapter.startListening();
         recyclerView.setAdapter(adapter);
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
     }
 
 }

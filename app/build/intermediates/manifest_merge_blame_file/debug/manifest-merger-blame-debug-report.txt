@@ -51,18 +51,18 @@
 29        <activity android:name="com.creaginetech.lbbtutor.LoginActivity" />
 29-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:13:9-51
 29-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:13:19-48
-30        <activity android:name="com.creaginetech.lbbtutor.InputPresensiActivity" />
-30-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:14:9-59
-30-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:14:19-56
-31        <activity android:name="com.creaginetech.lbbtutor.SiswaActivity" />
-31-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:15:9-51
-31-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:15:19-48
+30        <activity android:name="com.creaginetech.lbbtutor.AddPresensiActivity" />
+30-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:14:9-57
+30-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:14:19-54
+31        <activity android:name="com.creaginetech.lbbtutor.PresensiActivity" />
+31-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:15:9-54
+31-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:15:19-51
 32        <activity android:name="com.creaginetech.lbbtutor.JadwalActivity" />
 32-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:16:9-52
 32-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:16:19-49
-33        <activity android:name="com.creaginetech.lbbtutor.PresensiActivity" />
-33-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:17:9-54
-33-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:17:19-51
+33        <activity android:name="com.creaginetech.lbbtutor.PresensiDetailActivity" />
+33-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:17:9-60
+33-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:17:19-57
 34        <activity android:name="com.creaginetech.lbbtutor.MainActivity" >
 34-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:18:9-24:20
 34-->C:\Users\user\AndroidStudioProjects\lbbtutor-03-05\app\src\main\AndroidManifest.xml:18:19-47
