@@ -1,12 +1,19 @@
 package com.creaginetech.lbbtutor.Common;
 
+import com.creaginetech.lbbtutor.Model.Jadwal;
+import com.creaginetech.lbbtutor.Model.Tutor;
+
 public class Common {
 
+    public static Tutor currentTutor;
     public static String currentUser = "";
     public static String jadwalSelected = "";
     public static String pekanSelected = "";
     public static String bulanSelected = "";
     public static String siswaSelected = "";
+    public static String ruangSelected = "";
+    public static String keyJadwalGantiSelected = "";
+    public static Jadwal jadwalGantiSelected;
 
     public static String statusPresensiPekan1 = "";
     public static String statusPresensiPekan2 = "";

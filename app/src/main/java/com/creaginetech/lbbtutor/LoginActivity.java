@@ -13,11 +13,17 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.creaginetech.lbbtutor.Common.Common;
+import com.creaginetech.lbbtutor.Model.Tutor;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -78,6 +84,7 @@ public class LoginActivity extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             pbLogin.setVisibility(View.GONE);
                             Common.currentUser = mAuth.getCurrentUser().getUid();
+                            getDataTutor();
                             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                             startActivity(intent);
                             finish();
@@ -89,6 +96,27 @@ public class LoginActivity extends AppCompatActivity {
                         // ...
                     }
                 });
+
+    }
+
+    private void getDataTutor() {
+
+        DatabaseReference tutorRef = FirebaseDatabase.getInstance().getReference("Tutor");
+
+        tutorRef.child(Common.currentUser).addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+
+                Tutor dataTutor = dataSnapshot.getValue(Tutor.class);
+                Common.currentTutor = dataTutor;
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
 
     }
 

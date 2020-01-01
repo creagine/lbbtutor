@@ -38,8 +38,6 @@ public class Presensi8PertemuanActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_presensi8_pertemuan);
 
-        //TODO test presensi 8 pertemuan
-
         widgetInit();
 
         presensiRef = FirebaseDatabase.getInstance().getReference("Presensi");

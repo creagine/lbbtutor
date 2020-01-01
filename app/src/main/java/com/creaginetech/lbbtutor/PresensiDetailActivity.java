@@ -44,8 +44,23 @@ public class PresensiDetailActivity extends AppCompatActivity {
         if(Common.pekanSelected.equals("4")){
             getPresensiPekan4();
         }
+        if(Common.pekanSelected.equals("5")){
+            getPresensiPekan5();
+        }
+        if(Common.pekanSelected.equals("6")){
+            getPresensiPekan6();
+        }
+        if(Common.pekanSelected.equals("7")){
+            getPresensiPekan7();
+        }
+        if(Common.pekanSelected.equals("8")){
+            getPresensiPekan8();
+        }
         if(Common.pekanSelected.equals("penggantian")){
             getPresensiPekanPenggantian();
+        }
+        if(Common.pekanSelected.equals("penggantian2")){
+            getPresensiPekanPenggantian2();
         }
 
     }
@@ -123,8 +138,83 @@ public class PresensiDetailActivity extends AppCompatActivity {
         }
     }
 
+    private void getPresensiPekan5(){
+        if(Common.statusPresensiPekan5.equals("true")){
+            getPresensiSiswa(Common.jadwalSelected);
+        }
+        else {
+            Toast.makeText(PresensiDetailActivity.this,
+                    "Data belum ditemukan, silahkan mengisi data presensi",
+                    Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(PresensiDetailActivity.this, AddPresensiActivity.class);
+            startActivity(intent);
+            finish();
+        }
+    }
+
+    private void getPresensiPekan6(){
+        if(Common.statusPresensiPekan6.equals("true")){
+            getPresensiSiswa(Common.jadwalSelected);
+        }
+        else {
+            Toast.makeText(PresensiDetailActivity.this,
+                    "Data belum ditemukan, silahkan mengisi data presensi",
+                    Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(PresensiDetailActivity.this, AddPresensiActivity.class);
+            startActivity(intent);
+            finish();
+        }
+    }
+
+    private void getPresensiPekan7(){
+        if(Common.statusPresensiPekan7.equals("true")){
+            getPresensiSiswa(Common.jadwalSelected);
+        }
+        else {
+            Toast.makeText(PresensiDetailActivity.this,
+                    "Data belum ditemukan, silahkan mengisi data presensi",
+                    Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(PresensiDetailActivity.this, AddPresensiActivity.class);
+            startActivity(intent);
+            finish();
+        }
+    }
+
+    private void getPresensiPekan8(){
+        if(Common.statusPresensiPekan8.equals("true")){
+            getPresensiSiswa(Common.jadwalSelected);
+        }
+        else {
+            Toast.makeText(PresensiDetailActivity.this,
+                    "Data belum ditemukan, silahkan mengisi data presensi",
+                    Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(PresensiDetailActivity.this, AddPresensiActivity.class);
+            startActivity(intent);
+            finish();
+        }
+    }
+
     private void getPresensiPekanPenggantian(){
         if(Common.statusPresensiPekanPengganti.equals("true")){
+            getPresensiSiswa(Common.jadwalSelected);
+        }
+        else {
+            Toast.makeText(PresensiDetailActivity.this,
+                    "Data belum ditemukan, silahkan mengisi data presensi",
+                    Toast.LENGTH_SHORT).show();
+
+            Intent intent = new Intent(PresensiDetailActivity.this, AddPresensiActivity.class);
+            startActivity(intent);
+            finish();
+        }
+    }
+
+    private void getPresensiPekanPenggantian2(){
+        if(Common.statusPresensiPekanPengganti2.equals("true")){
             getPresensiSiswa(Common.jadwalSelected);
         }
         else {

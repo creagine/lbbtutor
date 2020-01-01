@@ -308,6 +308,7 @@
                         android:id="@+id/CardViewPekan4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
                         app:cardCornerRadius="10dp"
                         app:cardElevation="5dp"
                         app:contentPadding="8dp">
@@ -341,6 +342,7 @@
                         android:id="@+id/CardViewPekan5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
                         app:cardCornerRadius="10dp"
                         app:cardElevation="5dp"
                         app:contentPadding="8dp">
@@ -374,6 +376,7 @@
                         android:id="@+id/CardViewPekan6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
                         app:cardCornerRadius="10dp"
                         app:cardElevation="5dp"
                         app:contentPadding="8dp">
@@ -407,6 +410,7 @@
                         android:id="@+id/CardViewPekan7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
                         app:cardCornerRadius="10dp"
                         app:cardElevation="5dp"
                         app:contentPadding="8dp">
@@ -440,6 +444,7 @@
                         android:id="@+id/CardViewPekan8"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
                         app:cardCornerRadius="10dp"
                         app:cardElevation="5dp"
                         app:contentPadding="8dp">
@@ -473,6 +478,7 @@
                         android:id="@+id/CardViewPekanPengganti"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
                         app:cardCornerRadius="10dp"
                         app:cardElevation="5dp"
                         app:contentPadding="8dp">
@@ -507,6 +513,7 @@
                         android:id="@+id/CardViewPekanPengganti2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
                         app:cardCornerRadius="10dp"
                         app:cardElevation="5dp"
                         app:contentPadding="8dp">

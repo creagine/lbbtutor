@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FeeActivity"></activity>
+        <activity android:name=".GantiJadwalDetailActivity"></activity>
+        <activity android:name=".CekRuangActivity" />
+        <activity android:name=".PilihJadwalActivity" />
+        <activity android:name=".ListGantiJadwalActivity" />
+        <activity android:name=".GantiJadwalActivity" />
+        <activity android:name=".FeeActivity" />
         <activity android:name=".Presensi8PertemuanActivity" />
         <activity android:name=".AccountActivity" />
         <activity android:name=".LoginActivity" />

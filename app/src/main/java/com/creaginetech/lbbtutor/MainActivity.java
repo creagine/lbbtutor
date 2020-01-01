@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener authListener;
 
-    CardView cardPresensi,cardSpp;
+    CardView cardPresensi,cardSpp, cardGantiJadwal;
 
     ImageView imageAccount;
 
@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         cardPresensi = findViewById(R.id.cardPresensi);
         cardSpp = findViewById(R.id.cardSPP);
+        cardGantiJadwal = findViewById(R.id.cardGantiJadwal);
         imageAccount = findViewById(R.id.imageAccount);
 
         cardPresensi.setOnClickListener(new View.OnClickListener() {
@@ -53,9 +54,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                //todo: intent to spp activity
-//                Intent intent = new Intent(MainActivity.this, JadwalActivity.class);
-//                startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, FeeActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+        cardGantiJadwal.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this, GantiJadwalActivity.class);
+                startActivity(intent);
 
             }
         });
