@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    tools:context=".AddPresensiActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Tanggal"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Pilih tanggal dilaksanakannya KBM" />
+
+        <Button
+            android:id="@+id/buttonInputTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/cappsTutor"
+            android:text="input tanggal" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Materi"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextMateri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:hint="Cth: Pengenalan"
+            android:inputType="textLongMessage|textMultiLine|textPersonName" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Kterangan tidak hadir (optional)"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextKeterangan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:hint="Cth: Sakit"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Kehadiran siswa"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Pilih status kehadiran siswa" />
+
+        <Spinner
+            android:id="@+id/spinnerKehadiranSiswa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:entries="@array/kehadiranSiswa" />
+
+        <Button
+            android:id="@+id/buttonSubmitPresensi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cappsTutor"
+            android:text="Submit" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

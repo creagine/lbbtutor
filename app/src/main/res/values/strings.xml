@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Capps Tutor</string>
+
+    <string-array name="kehadiranSiswa">
+        <item>Kehadiran siswa</item>
+        <item>Hadir</item>
+        <item>Tidak Hadir</item>
+    </string-array>
+
+    <string-array name="bulan">
+
+        <item>Pilih bulan</item>
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+
+    </string-array>
+
+    <string-array name="ruang">
+        <item>Pilih ruangan</item>
+        <item>Ruang 1</item>
+        <item>Ruang 2</item>
+        <item>Ruang 3</item>
+        <item>Ruang 4</item>
+        <item>Ruang 5</item>
+        <item>Ruang 6</item>
+        <item>Ruang 7</item>
+        <item>Ruang 8</item>
+        <item>Ruang 9</item>
+        <item>Ruang 10</item>
+    </string-array>
+
+    <string-array name="hari">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+    </string-array>
+
+</resources>

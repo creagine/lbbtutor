@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable_capps_tutor.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable\\capps_tutor.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fee_item_detail.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_fee_item_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bglogin.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable\\bglogin.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cek_ruang.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_cek_ruang.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_jadwal.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_jadwal.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account_circle_black_24dp.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable\\ic_account_circle_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_ic_action_account.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable-anydpi\\ic_action_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable_um.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable\\um.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_account.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_account.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_ganti_jadwal_item.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\ganti_jadwal_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ganti_jadwal_detail.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_ganti_jadwal_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_presensi_detail.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_presensi_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iconjadwal.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable-xhdpi\\iconjadwal.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ganti_jadwal_list.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_ganti_jadwal_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash2.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_splash2.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_iconspp.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable-xhdpi\\iconspp.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pilih_jadwal_ganti.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_pilih_jadwal_ganti.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable_folder.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable\\folder.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_presensi4_pertemuan.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_presensi4_pertemuan.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splashlogo.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable\\splashlogo.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_account.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable-mdpi\\ic_action_account.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_account.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable-hdpi\\ic_action_account.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ganti_jadwal_lihat.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_ganti_jadwal_lihat.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_fee.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_fee.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable_poweredbiru.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable\\poweredbiru.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_account.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_account.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_jadwal_item.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\jadwal_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_fee_item.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\fee_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bgmain.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable\\bgmain.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_account.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_account.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_logo_capss_tutor.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\drawable-v24\\logo_capss_tutor.png"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_presensi.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_add_presensi.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ganti_jadwal.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_ganti_jadwal.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_presensi8_pertemuan.xml.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\layout\\activity_presensi8_pertemuan.xml"
+    },
+    {
+        "merged": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\user\\AndroidStudioProjects\\lbbtutor-backup-mac-01-01\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

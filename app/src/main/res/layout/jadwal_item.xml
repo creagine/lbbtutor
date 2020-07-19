@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:id="@+id/list_jadwal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textViewNamaSiswaJadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Siswa"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <TextView
+            android:id="@+id/textViewJurusanJadwal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jurusan"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <TextView
+            android:id="@+id/textViewGradeJadwal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grade" />
+
+        <TextView
+            android:id="@+id/textViewHariJadwal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hari" />
+
+        <TextView
+            android:id="@+id/textViewJamJadwal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jam" />
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
